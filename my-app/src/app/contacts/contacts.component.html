@@ -1,0 +1,17 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let users of people">
+        <td>{{users.firstname}}</td>
+        <td>{{users.lastname}}</td>
+        <td>{{users.email}}</td>
+      </tr>
+    </tbody>
+  </table>
+ 
